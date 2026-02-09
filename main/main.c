@@ -13,8 +13,8 @@
 /*==================== 配置宏 ====================*/
 
 #define I2C_PORT_NUM           0           /**< 使用 I2C_NUM_0 */
-#define I2C_SDA_GPIO           4           /**< SDA = GPIO4 */
-#define I2C_SCL_GPIO           5           /**< SCL = GPIO5 */
+#define I2C_SDA_GPIO           21          /**< SDA = GPIO4 */
+#define I2C_SCL_GPIO           22          /**< SCL = GPIO5 */
 #define I2C_CLK_SPEED_HZ       400000      /**< I2C 400kHz */
 
 /* AS5600L 相关 */

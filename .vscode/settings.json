@@ -3,18 +3,22 @@
   "idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.3.2/",
   "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
   "idf.openOcdConfigs": [
-    "board/esp32s3-builtin.cfg"
+    "board/esp32-wrover-kit-3.3v.cfg"
   ],
-  "idf.portWin": "COM24",
+  "idf.portWin": "COM70",
   "idf.toolsPathWin": "D:\\Espressif",
   "idf.customExtraVars": {
-    "IDF_TARGET": "esp32s3"
+    "IDF_TARGET": "esp32"
   },
   "clangd.path": "D:\\Espressif\\tools\\esp-clang\\16.0.1-fe4f10a809\\esp-clang\\bin\\clangd.exe",
   "clangd.arguments": [
     "--background-index",
-    "--query-driver=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
-    "--compile-commands-dir=${workspaceFolder}\\build"
+    "--query-driver=**",
+    "--compile-commands-dir=d:\\ESP-IDF-PJ\\AS5600L_TEST\\build"
   ],
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "files.associations": {
+    "esp_console.h": "c"
+  },
+  "idf.currentSetup": "D:/Espressif/frameworks/esp-idf-v5.3.2/"
 }
